@@ -119,6 +119,7 @@ int main()
         printf("\t1 - Registrar nomes\n");
         printf("\t2 - Consultar nomes\n");
         printf("\t3 - Deletar nomes\n");
+        printf("\t4 - Sair do sitema\n");
         printf("Este sofware é do Erick Hermano\n");
         printf("Opção:\t");
         scanf("%d", &opcao);
@@ -136,6 +137,11 @@ int main()
 
             case 3:
             deletar();
+            break;
+
+            case 4:
+            printf("Saindo do sistema aperte enter\n");
+            return 0;
             break;
 
             default:
